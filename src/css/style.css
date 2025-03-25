@@ -1,0 +1,80 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0.5% 10%;
+}
+
+.nav ul {
+    display: flex;
+    gap: 16px
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: #F9FAF8;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero {
+    padding: 5% 10%;
+    background-color: #1F2937;
+    display: flex;
+}
+
+.call-to-action-hero {
+    flex: 1 0 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.hero img {
+    flex: 1 0 50%;
+    background-color: grey;
+}
+
+.call-to-action-hero h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.call-to-action-hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-to-action-hero button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: 0;
+    padding: 6px 10px;
+    width: 100px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.cards {
+    text-align: center;
+}
